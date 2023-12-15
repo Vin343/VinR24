@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="">
+<body>
+	<div class="content">
+		<div class="card">
+			<div class="card-header">
+				<h2>Midterm Exam: Password Validator</h2>
+				<hr>
+			</div>
+			<div class="card-body">
+				<div class="form-input">
+					<label>Username:</label>
+					<input type="text" id="userName" name="">
+				</div>
+				<div class="tbl-rules">
+					<table>
+						<tr>
+							<td><i id="iconUpperCaseName" class="fa fa-circle-xmark red"></i></td>
+							<td>Has uppercase</td>
+						</tr>
+						<tr>
+							<td><i id="iconLowerCaseName" class="fa fa-circle-xmark red"></i></td>
+							<td>Has lowercase</td>
+						</tr>
+						<tr>
+							<td><i id="iconSpCharName" class="fa fa-circle-xmark red"></i></td>
+							<td>Has special characters</td>
+						</tr>
+					</table>
+				</div>
+				<div class="form-input">
+					<label>Password:</label>
+					<input type="text" name="" id="password">
+				</div>
+				<div class="tbl-rules">
+					<table>
+						<tr>
+							<td><i id="iconUpperCasePass" class="fa fa-circle-xmark red"></i></td>
+							<td>Has uppercase</td>
+						</tr>
+						<tr>
+							<td><i id="iconLowerCasePass" class="fa fa-circle-xmark red"></i></td>
+							<td>Has lowercase</td>
+						</tr>
+						<tr>
+							<td><i id="iconSpCharPass" class="fa fa-circle-xmark red"></i></td>
+							<td>Has special characters</td>
+						</tr>
+						<tr>
+							<td><i id="iconNumPass" class="fa fa-circle-xmark red"></i></td>
+							<td>Has numbers</td>
+						</tr>
+						<tr>
+							<td><i id="iconLengthPass" class="fa fa-circle-xmark red"></i></td>
+							<td>8 characters or more</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
